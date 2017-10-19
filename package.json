@@ -1,0 +1,25 @@
+{
+  "name": "fao-gift-automate-metadata-compilation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "http-server ./",
+    "cypress:open" : "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielesalvatore/fao-gift-automate-metadata-compilation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielesalvatore/fao-gift-automate-metadata-compilation/issues"
+  },
+  "homepage": "https://github.com/danielesalvatore/fao-gift-automate-metadata-compilation#readme",
+  "devDependencies": {
+    "cypress": "^1.0.2",
+    "http-server": "^0.10.0"
+  }
+}
