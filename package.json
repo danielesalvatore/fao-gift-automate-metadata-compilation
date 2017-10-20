@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "http-server ./",
-    "cypress:open" : "cypress open"
+    "start": "http-server ./",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
