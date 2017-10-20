@@ -56,7 +56,7 @@ var touchMetadata = function (pageNumber, index) {
 var touchAllMetadata = function (totPages, maxSurveysPerPage) {
 
 	var first = true;
-	for (var page = 9; page <= totPages; page++) {
+	for (var page = 1; page <= totPages; page++) {
 		for (var survey = 1; survey <= maxSurveysPerPage; survey++) {
 			cy.log('index', survey);
 			if (!first) {
